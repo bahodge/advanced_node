@@ -2,10 +2,6 @@ require("dotenv").config();
 
 const path = require("path");
 
-console.log(process.env.DEVELOPMENT_DB_DSN);
-console.log(process.env.PRODUCTION_DB_DSN);
-console.log(process.env.TEST_DB_DSN);
-
 module.exports = {
     development: {
         sitename: "Roux Meetups [Development]",
